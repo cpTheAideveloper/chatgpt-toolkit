@@ -1,6 +1,7 @@
 # 🧠 ChatGPT Development Kit
+
 The open‑source boilerplate that packs the core ChatGPT experience into a Vite + React front end and a Node + Express back end.
----
+
 
 ## 📁 Understanding Your Project Structure
 
