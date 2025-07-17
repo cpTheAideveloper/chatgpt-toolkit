@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* Add this to your global CSS file (e.g., styles/globals.css) */
+
+.chat-bubble {
+    @apply relative rounded-lg px-4 py-2 max-w-[85%]; /* Base styles */
+  }
+  
+  /* Bot Bubble (Left) */
+  .chat-bubble-bot {
+    @apply bg-gray-100 text-gray-800 rounded-tl-none border border-gray-200 dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600; /* Specific colors and rounding */
+  }
+  
+  .chat-bubble-bot::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 10px 10px 0; /* Adjust size as needed */
+     /* Match bot bubble bg */
+    border-color: transparent theme('colors.gray.100') transparent transparent;
+    top: 0px; /* Position near the top-left */
+    left: -10px; /* Position outside the bubble */
+  }
+  
+  /* Dark mode styles for bot bubble tail */
+  .dark .chat-bubble-bot::before {
+     border-color: transparent theme('colors.gray.700') transparent transparent;
+  }
+  
+  
+  /* User Bubble (Right) */
+  .chat-bubble-user {
+    @apply bg-green-600 text-white rounded-tr-none; /* Specific colors and rounding */
+     /* Ensure user bubbles don't exceed max width either */
+    @apply max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg;
+  }
+  
+  .chat-bubble-user::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0 10px 10px; /* Adjust size as needed */
+    /* Match user bubble bg */
+    border-color: transparent transparent transparent theme('colors.green.600');
+    top: 0px; /* Position near the top-right */
+    right: -10px; /* Position outside the bubble */
+  }
+  
+  /* Adjust MarkdownViewerChat styles if needed */
+  .chat-bubble .prose { /* Target prose within bubbles */
+     @apply text-sm; /* Ensure consistent text size */
+  }
+  .chat-bubble-user .prose {
+      @apply text-white; /* Ensure markdown links, etc., are white for user */
+  }
+  .chat-bubble-user .prose a {
+      @apply text-green-100 underline hover:text-white;
+  }
+  .chat-bubble-bot .prose {
+      @apply text-gray-800 dark:text-gray-200;
+  }
+  .chat-bubble-bot .prose a {
+      @apply text-indigo-600 dark:text-indigo-400 underline hover:text-indigo-800 dark:hover:text-indigo-300;
+  }
