@@ -1,7 +1,5 @@
 # 🧠 ChatGPT Development Kit
-
-This project provides a clean starting point for building AI chat applications with a **Vite + React + Tailwind CSS** frontend and a **Node.js + Express** backend connected to the **OpenAI API**.
-
+The open‑source boilerplate that packs the core ChatGPT experience into a Vite + React front end and a Node + Express back end.
 ---
 
 ## 📁 Understanding Your Project Structure
@@ -177,6 +175,44 @@ Feel free to expand with:
 - `.vscode/settings.json` for dev tools
 
 ---
+
+
+## 📚 Learn as You Build
+
+Want a **step‑by‑step beginner guide** to OpenAI, memory strategies, streaming, and more?  
+Grab the **free tutorial** here:  
+👉 **https://www.the-aideveloper.com/openai**
+
+---
+
+
+## 🤝 Contributing
+
+Pull requests are welcome! Please open an issue first to discuss major changes.  
+All contributors must follow OpenAI’s [usage policies](https://platform.openai.com/docs/usage-policies).
+
+---
+
+## 📜 License
+
+- **Code**: MIT License — free for personal and commercial projects, attribution appreciated.  
+- **Documentation & media**: Creative Commons **CC BY 4.0**.  
+- **OpenAI API keys**: You must supply your own key and comply with OpenAI’s Terms of Service.
+
+---
+
+## 📬 Connect with Me
+
+🌐 **The AI Developer**  
+- **YouTube** · [The AI Developer](https://www.youtube.com/@theaideveloper)  
+- **Instagram** · [@cptheaideveloper](https://www.instagram.com/cptheaideveloper/)  
+- **Twitter/X** · [@cpaideveloper](https://x.com/cpaideveloper)  
+- **TikTok** · [@codingnutella](https://www.tiktok.com/@codingnutella)  
+- **LinkedIn** · [The AI Developer](https://www.linkedin.com/company/theaidevelopercp/)  
+- **GitHub** · [The AI Developer](https://github.com/cpTheAideveloper)  
+
+> **🔥  Like what you see?** Star ⭐ the repo and follow for deep‑dives, tips, and the upcoming pro release!
+
 
 ## 🛠 Author's Note
 
