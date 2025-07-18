@@ -2,6 +2,24 @@
 
 The open‑source boilerplate that packs the core ChatGPT experience into a Vite + React front end and a Node + Express back end.
 
+## ✨ Features
+
+This development kit replicates the **core ChatGPT experience** and extends it with rich multimodal and interactive features:
+
+- 💬 **Multimodal Chat** – Combine text, image, audio, and document inputs in a single conversation flow.
+- ⚡ **Real-Time Streaming Chat** – Token-by-token message updates for a smoother user experience.
+- 🔍 **Search-Enhanced Responses** – Integrate web or custom document search to improve answer quality.
+- 🎙️ **Voice Interaction** – Record, send, and respond to voice messages with microphone support or Twilio.
+- 📝 **Audio Transcription** – Use Whisper or OpenAI APIs to convert voice notes into readable text.
+- 🖼️ **Image Generation** – Generate images using **DALL·E 2** and the new **DALL·E 3** models.
+- 🎨 **Inpaint Mode** – Upload an image, select areas, and let AI redraw or enhance them with context.
+- 👁️ **Vision Input (GPT-4o)** – Upload screenshots, UIs, or real-world photos for visual reasoning and analysis.
+- 📄 **Document Support** – Upload and query **PDF** and **Word (.docx)** files using memory-friendly techniques.
+- 🧠 **Context Memory** – Easily implement memory systems via sliding windows, summarization, and thread-saving.
+- 🧩 **Canvas Interaction** – Enable AI to **reason spatially or visually** via a digital canvas for drawing, layout, and visual planning (like OpenAI’s JSON canvas mode).
+- 🧪 **OpenAI-Compatible** – Built for use with GPT-4o and future models with new modalities and tool use.
+
+
 
 ## 📁 Understanding Your Project Structure
 
