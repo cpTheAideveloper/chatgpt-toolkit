@@ -11,7 +11,7 @@ This development kit replicates the **core ChatGPT experience** and extends it w
 - 🔍 **Search-Enhanced Responses** – Integrate web or custom document search to improve answer quality.
 - 🎙️ **Voice Interaction** – Record, send, and respond to voice messages with microphone support or Twilio.
 - 📝 **Audio Transcription** – Use Whisper or OpenAI APIs to convert voice notes into readable text.
-- 🖼️ **Image Generation** – Generate images using **DALL·E 2** and the new **DALL·E 3** models.
+- 🖼️ **Image Generation** – Generate images using **DALL·E 3** and the new **gpt-imagens** models.
 - 🎨 **Inpaint Mode** – Upload an image, select areas, and let AI redraw or enhance them with context.
 - 👁️ **Vision Input (GPT-4o)** – Upload screenshots, UIs, or real-world photos for visual reasoning and analysis.
 - 📄 **Document Support** – Upload and query **PDF** and **Word (.docx)** files using memory-friendly techniques.
