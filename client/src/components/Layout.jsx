@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import {
   MessageSquare, ImageIcon, Mic, FileText, Pencil, Eye, Speech,
   FilePenLine, ChevronLeft, ChevronRight, SquareMousePointer,
-  Search, Globe, FileUp, Captions, Bot, BookOpen, AppWindow
+  Search, Globe, FileUp, Captions, Bot, BookOpen, AppWindow, Microscope
 } from "lucide-react";
 import { useState } from "react";
 
@@ -34,6 +34,7 @@ const navGroups = [
     items: [
       { path: "/search", label: "Web Search", icon: <Search size={20} /> },
       { path: "/realtime-search", label: "Realtime Search", icon: <Globe size={20} /> },
+      { path: "/deep-research", label: "Deep Research", icon: <Microscope size={20} /> },
     ],
   },
   {
@@ -199,19 +200,33 @@ export function Layout({ children }) {
  * - A collapsible sidebar with categorized navigation
  * - Main content area that renders children components based on route
  * 
+ * UPDATED: Added Deep Research navigation item in the Search section with Microscope icon
+ * 
  * Key Features:
  * - Collapsible sidebar with tooltips when collapsed
- * - Navigation grouped by feature type (Text, Audio, Image, etc.)
+ * - Navigation grouped by feature type (Text, Audio, Image, Search, etc.)
  * - Responsive layout using TailwindCSS
  * - Active route highlighting using `useLocation`
  * - Uses `react-router-dom` for client-side routing
+ * - NEW: Deep Research functionality accessible via /deep-research route
+ * 
+ * Navigation Groups:
+ * - Multi-Modal: Advanced AI interactions
+ * - Text: Chat and real-time conversations
+ * - Code: Code generation with canvas
+ * - Search: Web search, real-time search, and NEW comprehensive deep research
+ * - Image: Various image generation and analysis tools
+ * - Audio: Voice and audio processing
+ * - File: File handling and processing
+ * - DemoApp: Demonstration applications
+ * - Documentation: Documentation browser
  * 
  * Props:
  * - `children` (ReactNode): Content to render in the main view area
  * 
  * Dependencies:
  * - React Router (Link, useLocation)
- * - lucide-react (icons)
+ * - lucide-react (icons) - Added Microscope icon for Deep Research
  * - Tailwind CSS (for layout, spacing, and transitions)
  * 
  * Path: //src/components/Layout.jsx
