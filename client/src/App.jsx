@@ -22,6 +22,7 @@ import { DocBrowser } from "@/components/DocumentBrowser";
 import { CodeDocumenter } from "./pages/DemoApps/CodeDocumenter";
 import { GPTImageGen } from "./pages/Image&Vision/GPTImageGen";
 import { GPTImageEdit } from "./pages/Image&Vision/GPTImageEdit";
+import { VideoAnalyze } from "./pages/Image&Vision/VideoAnalyze";
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
               </AudioContextProvider>
             }
           />          
+
+          <Route path="/videoanalyze" element={<VideoAnalyze />} />
           <Route path="/demoApp/codeautodoc" element={<CodeDocumenter />} />          
           <Route path="/textotoaudio" element={<TextToSpeech />} />
           <Route path="/file" element={<FileProc />} />

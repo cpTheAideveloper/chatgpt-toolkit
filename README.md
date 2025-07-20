@@ -9,6 +9,9 @@ This development kit replicates the **core ChatGPT experience** and extends it w
 - 💬 **Multimodal Chat** – Combine text, image, audio, and document inputs in a single conversation flow.
 - ⚡ **Real-Time Streaming Chat** – Token-by-token message updates for a smoother user experience.
 - 🔍 **Search-Enhanced Responses** – Integrate web or custom document search to improve answer quality.
+
+- 🔬 **Deep Research** – Conduct comprehensive research using AI with access to web search and code execution, featuring real-time progress tracking, optional clarifications, and custom source prioritization.
+
 - 🎙️ **Voice Interaction** – Record, send, and respond to voice messages with microphone support or Twilio.
 - 📝 **Audio Transcription** – Use Whisper or OpenAI APIs to convert voice notes into readable text.
 - 🖼️ **Image Generation** – Generate images using **DALL·E 3** and the new **gpt-imagens** models.

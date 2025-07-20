@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import {
   MessageSquare, ImageIcon, Mic, FileText, Pencil, Eye, Speech,
   FilePenLine, ChevronLeft, ChevronRight, SquareMousePointer,
-  Search, Globe, FileUp, Captions, Bot, BookOpen, AppWindow, Microscope
+  Search, Globe, FileUp, Captions, Bot, BookOpen, AppWindow, Microscope, Video
 } from "lucide-react";
 import { useState } from "react";
 
@@ -44,6 +44,7 @@ const navGroups = [
       { path: "/imageneration", label: "Image Generation", icon: <ImageIcon size={20} /> },
       { path: "/imageEdit", label: "Edit Image", icon: <ImageIcon size={20} /> },
       { path: "/imageanalyze", label: "Image Analyze", icon: <Eye size={20} /> },
+   
     ],
   },
   {
@@ -52,6 +53,12 @@ const navGroups = [
       { path: "/audio", label: "Audio Transcriptions", icon: <Captions size={20} /> },
       { path: "/textotoaudio", label: "Text to Audio", icon: <Speech size={20} /> },
       { path: "/voice", label: "Talk GPT", icon: <Mic size={20} /> },
+    ],
+  },
+   {
+    title: "Video",
+    items: [
+   { path: "/videoanalyze", label: "Video Analyze", icon: <Video size={20} /> },
     ],
   },
   {

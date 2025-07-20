@@ -14,6 +14,7 @@ import CodeHandler from "./routes/codeHandler.js";
 import FileRealtimeProcesing from "./routes/fileRealtimeProcesing.js";
 import docsRouter from "./routes/docs.js";
 import CodeDocumenter from "./demoapproutes/codeDocumenter.js"
+import videoHandler from "./routes/videoHandler.js";
 
 // Load environment variables
 config();
@@ -48,6 +49,7 @@ app.use('/deep-research', DeepResearchHandler); // New Deep Research route mount
 app.use('/code', CodeHandler);
 app.use("/docs", docsRouter);
 app.use("/code-documenter", CodeDocumenter)
+app.use("/video", videoHandler);
 
 // Start the server
 app.listen(port, () => {
