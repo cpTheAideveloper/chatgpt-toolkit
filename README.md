@@ -20,6 +20,8 @@ This development kit replicates the **core ChatGPT experience** and extends it w
 - 📄 **Document Support** – Upload and query **PDF** and **Word (.docx)** files using memory-friendly techniques.
 - 🧠 **Context Memory** – Easily implement memory systems via sliding windows, summarization, and thread-saving.
 - 🧩 **Canvas Interaction** – Enable AI to **reason spatially or visually** via a digital canvas for drawing, layout, and visual planning (like OpenAI’s JSON canvas mode).
+
+- 🎥 **Video Analysis**: Upload videos, extract audio, transcribe content, and chat about video context
 - 🧪 **OpenAI-Compatible** – Built for use with GPT-4o and future models with new modalities and tool use.
 
 
