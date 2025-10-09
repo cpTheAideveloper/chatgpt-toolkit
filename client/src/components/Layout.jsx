@@ -59,6 +59,7 @@ const navGroups = [
     title: "Video",
     items: [
    { path: "/videoanalyze", label: "Video Analyze", icon: <Video size={20} /> },
+   { path: "/videogen", label: "Video Generation", icon: <Video size={20} /> },
     ],
   },
   {

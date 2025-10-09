@@ -15,6 +15,7 @@ import FileRealtimeProcesing from "./routes/fileRealtimeProcesing.js";
 import docsRouter from "./routes/docs.js";
 import CodeDocumenter from "./demoapproutes/codeDocumenter.js"
 import videoHandler from "./routes/videoHandler.js";
+import videoGenHandler from "./routes/videoGenHandler.js"; // Sora video generation
 
 // Load environment variables
 config();
@@ -50,6 +51,7 @@ app.use('/code', CodeHandler);
 app.use("/docs", docsRouter);
 app.use("/code-documenter", CodeDocumenter)
 app.use("/video", videoHandler);
+app.use("/videogen", videoGenHandler); // Sora video generation
 
 // Start the server
 app.listen(port, () => {
@@ -66,6 +68,8 @@ app.listen(port, () => {
   console.log(`  - /code: AI-assisted code generation`);
   console.log(`  - /docs: Documentation browser`);
   console.log(`  - /code-documenter: AI code documentation`);
+  console.log(`  - /video: Video transcription and analysis`);
+  console.log(`  - /videogen: NEW - AI video generation with Sora`);
 });
 
 /**

@@ -23,6 +23,7 @@ import { CodeDocumenter } from "./pages/DemoApps/CodeDocumenter";
 import { GPTImageGen } from "./pages/Image&Vision/GPTImageGen";
 import { GPTImageEdit } from "./pages/Image&Vision/GPTImageEdit";
 import { VideoAnalyze } from "./pages/Image&Vision/VideoAnalyze";
+import { VideoGen } from "./pages/Image&Vision/VideoGen";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
           />          
 
           <Route path="/videoanalyze" element={<VideoAnalyze />} />
+          <Route path="/videogen" element={<VideoGen />} />
           <Route path="/demoApp/codeautodoc" element={<CodeDocumenter />} />          
           <Route path="/textotoaudio" element={<TextToSpeech />} />
           <Route path="/file" element={<FileProc />} />
